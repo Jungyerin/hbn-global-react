@@ -1,0 +1,118 @@
+@import "../sass/web/commons/common-variable";
+
+.footer{
+  float: left;
+  width: 100%;
+  margin: 50px 0 0;
+  padding: 20px 0 30px;
+  background-color: $hbn-alabaster-F9-color;
+  border-top: solid 1px $hbn-gallery-EE-color;
+}
+
+.footer .contentWrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer .contentWrapper .logoWrapper{
+  float: left;
+  width: 204px;
+}
+
+.footer .contentWrapper .logoWrapper .logo {
+  float: left;
+  width: 100%;
+  margin-top: -4px;
+  img {
+    float: left;
+    width: 100%;
+  }
+}
+
+.footer .contentWrapper .logoWrapper .contact-button {
+  float: left;
+  margin: 3px 50px 0;
+  padding: 5px 5px 4px 20px;
+  text-align: center;
+  border: solid 1px $hbn-dovegray-65-color;
+  font-size: 13px;
+  font-weight: bold;
+  color: $hbn-emperor-52-color;
+  @include hbn-background-img("#{$web-for-image}/images/contact-black-icon.png", 14px auto, left 5px center);
+
+}
+
+.footer .contentWrapper .companyInfo{
+  float: left;
+  //width: 640px;
+  //width: 720px;
+  width: 700px;
+  //width: 550px;
+  //margin: 0 8px;
+  margin: 0 15px;
+}
+
+.footer .contentWrapper .companyInfo .infoText{
+  line-height: 20px;
+  font-size: 13px;
+  color: $hbn-emperor-52-color;
+  word-break: keep-all;
+  .bold {
+    font-weight: bold;
+  }
+}
+
+//.footer .contentWrapper .extraLogo{
+//  float: right;
+//}
+
+.footer .contentWrapper .extraLogo .extra-logo{
+  float: left;
+  width: 90px;
+  height: 43px;
+  margin-right: 5px;
+  border: solid 1px $hbn-mercury-E2-color;
+  background-color: $hbn-white-FF-color;
+  &:last-child {
+    margin-right: 0;
+  }
+  &.venture {
+    @include background-2x('#{$root-image}/logo/venture', 'png', 80px, auto, center, no-repeat );
+  }
+  &.innobiz {
+    @include background-2x('#{$root-image}/logo/innobiz', 'png', 64px, 23px, center, no-repeat );
+  }
+  &.mainbiz {
+    @include background-2x('#{$root-image}/logo/mainbiz', 'png', 64px, 32px, center, no-repeat );
+  }
+}
+
+.footer .contentWrapper .extraLogo{
+  float: right;
+  width: 200px;
+  padding: 5px 0 9px;
+  border: solid 1px $hbn-scienceBlue-00-color;
+  text-align: center;
+}
+
+$hbn-footer-title-contact-side-padding : 15px;
+
+.footer .contentWrapper .extraLogo .titleWrapper{
+  float: left;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.footer .contentWrapper .extraLogo .title {
+  padding-left: $hbn-footer-title-contact-side-padding;
+  font-size: 12px;
+  font-weight: bold;
+  color: $hbn-scienceBlue-00-color;
+  @include hbn-background-img("#{$web-for-image}/images/contact-navy-icon.png", 13px 13px, left 0);
+}
+
+.footer .contentWrapper .extraLogo .email{
+  font-size: 12px;
+  width: 100%;
+  color: $hbn-codgray-1B-color;
+}

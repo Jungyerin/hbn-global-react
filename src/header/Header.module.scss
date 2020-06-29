@@ -1,0 +1,133 @@
+@import "../sass/web/commons/common-variable";
+
+$hbn-header-bottom-white-space : 5px;
+$hbn-header-recruitment-bottom-margin : 18px;
+
+.header{
+  float: left;
+  width: 100%;
+  padding-bottom: 3px;
+  margin: 11px 0 $hbn-header-bottom-white-space 0;
+  &.recruitment {
+    //padding-bottom: $hbn-header-bottom-white-space;
+    //border-bottom: 5px solid $hbn-recruitment-border-color;
+  }
+  &.gradstudent {
+    //padding-bottom: $hbn-header-bottom-white-space;
+    //border-bottom: 5px solid $hbn-gradstudent-border-color;
+  }
+  &.main {
+    // margin: 18px 0 $hbn-header-bottom-white-space 0;
+  }
+}
+
+.header .link {
+  text-decoration: none;
+  color: $hbn-codgray-1B-color;
+  //&.recruitment.selected {
+  //  color: $hbn-recruitment-border-color;
+  //}
+  //&.gradstudent.selected {
+  //  color: $hbn-gradstudent-border-color;
+  //}
+  //&.selected {
+  //  color: $hbn-scienceBlue-00-color;
+  //}
+}
+
+.header .recruitment{
+  color: $hbn-recruitment-border-color;
+}
+.header .gradstudent{
+  color: $hbn-gradstudent-border-color;
+}
+
+.header .topMenuWrapper {
+  float: left;
+  width: 100%;
+  margin: 0 0 3px;
+}
+
+.header .topMenuWrapper .dividedIcon{
+  float: right;
+  width: 1px;
+  height: 12px;
+  margin: 1px 10px 0;
+}
+
+.header .topMenuWrapper .koreanSite {
+  float: right;
+  //padding-left: 26px;
+  font-size: 13px;
+  font-weight: bold;
+  a {
+    color: $hbn-nobel-B6-color;
+  }
+  a:hover {
+    color: $hbn-pictonblue-47-color;
+  }
+  //@include hbn-background-img("#{$web-for-image}/images/header-hbn-logo.svg", 21px auto, left top);
+  //@include hbn-background-img("#{$web-image}/images/drop-down-down.svg", 8px auto, right);
+  //color: $hbn-codgray-1B-color;
+}
+
+.header .topMenuWrapper .international {
+  float: right;
+  padding-left: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  color: $hbn-scienceBlue-00-color;
+  @include hbn-background-img("#{$web-for-image}/images/internatinal-navy-icon.svg", 12px auto, left 0);
+}
+
+.header .topMenuWrapper .contact-text {
+  float: right;
+  padding-left: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  a {
+    color: $hbn-emperor-52-color;
+  }
+  @include hbn-background-img("#{$web-for-image}/images/contact-black-icon.png", 13px auto, left center);
+  //@include hbn-background-img("#{$web-image}/images/drop-down-down.svg", 8px auto, right);
+  //color: $hbn-codgray-1B-color;
+}
+
+.header .logoWrapper {
+  float: left;
+  width: 175px;
+  height: auto;
+}
+
+.header .logoWrapper img {
+  float: left;
+  width: 100%;
+}
+
+.header .menuWrapper {
+  float: right;
+  margin-top: 23px;
+}
+
+.header .menuWrapper .menuText{
+  float: left;
+  padding-left: 30px;
+  font-size: 21px;
+  font-weight: bold;
+  .recruitment:hover {
+    cursor: pointer;
+    color: $hbn-recruitment-border-color;
+  }
+  .gradstudent:hover {
+    cursor: pointer;
+    color: $hbn-gradstudent-border-color;
+  }
+  &:first-child {
+    padding-left: 0;
+  }
+}
+
+.header .korea-flag-image {
+  margin: 10px 15px 0;
+  width: 45px;
+}

@@ -1,0 +1,102 @@
+@import "../sass/web/commons/common-variable";
+
+.mainBanner{
+  float: left;
+  width: 100%;
+  margin-top: 13px;
+}
+
+.mainBanner .bigImage {
+  float: left;
+  width: 100%;
+}
+
+.bannerListWrapper .bannerWrapper{
+  position: relative;
+  float: left;
+  width: 272px;
+  margin-right: 14px;
+  border: solid;
+  border-width: 5px 1px 1px 1px;
+  margin-top: 15px;
+  &:nth-child(4n) {
+    margin-right: 0;
+    margin-left: 1px;
+  }
+  &.PROF {
+    border-color: $hbn-recruitment-border-color;
+  }
+  &.NOPROF {
+    border-color: $hbn-recruitment-border-color;
+  }
+  &.GUNIV {
+    border-color: $hbn-gradstudent-border-color;
+  }
+  &.empty {
+    //height: 213px;
+    border-color: $hbn-alto-DC-color;
+  }
+}
+
+.bannerListWrapper .bannerWrapper .nameWrapper{
+  float: left;
+  width: 100%;
+  height: 51px;
+  text-align: center;
+}
+
+.bannerListWrapper .bannerWrapper .nameWrapper .nameText{
+  float: left;
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  img {
+    width: 237px;
+  }
+}
+
+$hbn-main-banner-title-padding : 16px;
+
+.bannerListWrapper .bannerWrapper .titleWrapper{
+  float: left;
+  width: 272px - (2 * $hbn-main-banner-title-padding);
+  height: 70px;
+  padding: 10px $hbn-main-banner-title-padding;
+  &.PROF {
+    background-color: $hbn-recruitment-background-color;
+  }
+  &.NOPROF {
+    background-color: $hbn-recruitment-background-color;
+  }
+  &.GUNIV {
+    background-color: $hbn-gradstudent-background-color;
+  }
+}
+
+.bannerListWrapper .bannerWrapper .titleWrapper .titleText{
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  color: $hbn-codgray-1B-color;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  //word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  //IE에서 말줄임표 처리
+  //@media screen and (min-width:0\0){
+  //  @include hbn-text-ellipse($hbn-hawkesblue-ee-color);
+  //}
+  //@-moz-document url-prefix() {
+  //  @include hbn-text-ellipse($hbn-hawkesblue-ee-color);
+  //}
+}
+
+.bannerListWrapper .bannerWrapper .titleWrapper .dateText{
+  float: left;
+  margin-top: 17px;
+  font-size: 14px;
+  color: $hbn-codgray-1B-color;
+}

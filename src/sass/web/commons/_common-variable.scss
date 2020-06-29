@@ -1,0 +1,228 @@
+/**
+* 이 파일은 전체 공통적으로 사용하는 스타일 변수명을 정의합니다.
+*/
+
+$hbn-images-path : "/images";
+$hbn-mobile-fonts-path : "/fonts";
+
+$root-image : "//asset.hibrain.io/images/dist";
+$banner-image : "//asset.hibrain.io/banners";
+$mobile-image : "//asset.hibrain.io/mobile";
+$web-image : "//asset.hibrain.io/web";
+$web-for-image : "https://s3.ap-northeast-2.amazonaws.com/hbn-mobile-assets-public/global.hibrain.net/development/web";
+$mobile-dev-image : "//asset.hibrain.io/mobile/development/images";
+$mobile-rel-image : "//asset.hibrain.io/mobile/release/images";
+$font:"맑은 고딕", "Malgun Gothic", "돋움", Dotum, "Apple SD Gothic Neo", Helvetica, sans-serif;
+
+$hbn-black-00-color : #000000;
+$hbn-dovegray-66-color : #666666;
+$hbn-dovegray-70-color : #707070;
+$hbn-dovegray-6E-color : #6E6E6E;
+$hbn-silverchalice-aa-color : #aaaaaa;
+//gray1
+$hbn-codgray-1B-color : #1B1B1B;
+//gray2
+$hbn-mineshaft-3B-color : #3B3B3B;
+$hbn-mineshaft-30-color : #303030;
+//gray3
+$hbn-emperor-52-color : #525252;
+//gray4
+$hbn-boulder-77-color : #777777;
+$hbn-boulder-78-color : #787878;
+//gray5
+$hbn-dustygray-9B-color : #9B9B9B;
+$hbn-dustygray-95-color : #959595;
+$hbn-silverchalice-9E-color : #9E9E9E;
+//gray6
+$hbn-silverapprox-C6-color: #C6C6C6; // silver
+//gray7
+$hbn-alto-DC-color : #DCDCDC;
+$hbn-alto-D1-color : #D1D1D1;
+//gray8
+$hbn-gallery-EB-color : #EBEBEB;
+//gray9
+$hbn-wildsand-F6-color : #F6F6F6;
+
+$hbn-silver-C1-color : #C1C1C1;
+$hbn-silver-CA-color : #CACACA;
+
+$hbn-alto-D4-color : #D4D4D4;
+
+$hbn-nobel-B6-color : #B6B6B6;
+
+$hbn-white-FF-color : #FFFFFF;
+$hbn-zircon-F1-color : #F1F6FF;
+$hbn-alabastersolid-FA-color: #FAFAFA;
+
+$hbn-alabaster-F9-color: #F9F9F9;
+
+$hbn-gallery-EE-color : #EEEEEE;
+
+$hbn-alabaster-F7-color : #F7F7F7;
+
+$hbn-silver-B9-color : #B9B9B9;
+$hbn-silverchalice-AD-color: #ADADAD;
+$hbn-seashell-F1-color : #F1F1F1;
+$hbn-mercury-E9-color : #E9E9E9;
+$hbn-mercury-E2-color : #E2E2E2;
+$hbn-grayapprox-8F-color: #8F8F8F;
+$hbn-bonjour-DB-color: #DBD9DB;
+$hbn-mercuryapprox-E4-color : #E4E4E4;
+$hbn-ironapprox-D7-color: #D7D8D9;
+$hbn-gray-91-color: #919191;
+$hbn-gray-90-color: #909090;
+$hbn-gray-8E-color: #8E8E8E;
+$hbn-dustyGray-97-color : #979797;
+$hbn-dovegray-70-color : #707070;
+$hbn-tundora-43-color : #434343;
+$hbn-scorpion-60-color : #606060;
+$hbn-dovegray-69-color : #696969;
+$hbn-silverchalice-A8-color : #A8A8A8;
+$hbn-dovegray-65-color : #656565;
+
+$hbn-flushorange-FF-color : #FF7500;
+$hbn-westside-FF-color : #FF8D1B;
+$hbn-tango-F0-color : #F0691F;
+$hbn-sunsetorange-FD-color : #FD4545;
+$hbn-sunsetorange-FF-color : #FF5050;
+$hbn-carnation-F2-color : #F2675F;
+$hbn-redorange-FB-color : #FB2A2A;
+$hbn-chestnutrose-CC-color: #CC4B4C;
+$hbn-redribbon-F3-color : #F3123C;
+$hbn-redribbon-F2-color : #F21717;
+
+$hbn-solitude-E6-color : #E6F2FF;
+$hbn-zumthor-ED-color : #EDF7FF;
+$hbn-danube-65-color : #65A4D3;
+$hbn-pictonblue-47-color : #479cf2;
+$hbn-pictonblue-31-color : #3197E4;
+$hbn-dodgerblue-48-color : #488AFF;
+$hbn-dodgerblue-26-color : #2679F6;
+$hbn-anakiwa-A4-color: #A4C4FF;
+$hbn-zircon-F5-color: #F5F9FF;
+$hbn-curiousblue-2A-color: #2A96E6;
+$hbn-lochmara-00-color : #0083CB; // 베너색
+$hbn-scienceBlue-00-color : #0068B7;
+$hbn-chathamsblue-17-color: #173F85;
+$hbn-internalkleinblue-color: #002DAB;
+$hbn-azurea-39-color : #395B9D;
+$hbn-endeavour-00-color : #00599E;
+$hbn-deyork-86-color : #86CD9E;
+$hbn-sushi-8D-color : #8dc63f;
+$hbn-sushi-86-color : #86BD3B;
+$hbn-sushi-9C-color : #9CC042;
+$hbn-limeade-4F-color : #4FC700;
+$hbn-emerald-37-color : #37C566;
+$hbn-salem-07-color : #078F34;
+$hbn-salem-0F-color : #0F9C3E;
+$hbn-fungreen-07-color : #007A29;
+$hbn-fungreen-00-color : #008A3C;
+$hbn-peppermint-F0-color : #F0F9ED;
+$hbn-frost-EF-color : #EFF6DF;
+$hbn-blckwhite-FF-color: #FFFFF6;
+$hbn-hawkesblue-ee-color : #EEF5FE;
+
+$hbn-mcorp-body-width : 800px;
+$hbn-top-menu-height : 42px;
+$hbn-top-head-menu-height : 50px;
+
+
+
+//tab-bar 높이에 따라서 footer의 margin bottom 조절하도록 변수로 높이 지정
+$tab-bar-height : 50px;
+$tab-bar-height-small : 45px;
+
+//tab-bar 삭제로 인해서 height 조정
+//$tab-bar-height : 0px;
+//$tab-bar-height-small : 0px;
+
+//tab-bar 높이에 따라서 footer의 margin bottom 조절하도록 변수로 높이 지정
+$view-mymenu-bar-height : 50px;
+$view-mymenu-bar-height-small : 45px;
+
+//이전 다음 버튼 높이 지정(top button 위치지정을 위해서 수치 전체변수로 지정)
+$detail-view-mymenu-height : 50px;
+$detail-view-mymenu-height-small : 45px;
+
+$search-bar-side-value : 1rem;
+$search-bar-side-value-small : 0.75rem;
+
+
+// 타입별 배너 색
+$hbn-recruitment-border-color : $hbn-scienceBlue-00-color;
+$hbn-recruitment-background-color : $hbn-hawkesblue-ee-color;
+
+$hbn-gradstudent-border-color : $hbn-fungreen-00-color;
+$hbn-gradstudent-background-color : $hbn-peppermint-F0-color;
+
+@mixin hbn-common-font{
+  // font-family: Arial,"Apple SD Gothic Neo","맑은 고딕","Malgun Gothic","돋움",Dotum,Helvetica,sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif;;
+  letter-spacing: -0.2px;
+  word-spacing: 0;
+}
+
+@mixin hbn-background-img ($url, $size, $position) {
+  background-image: url($url);
+  background-size: $size;
+  background-repeat: no-repeat;
+  background-position: $position;
+}
+
+@mixin background-2x($path, $ext: "png", $w: auto, $h: auto, $pos: left top, $repeat: no-repeat){
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}_x2.#{$ext}";
+  $at3x_path: "#{$path}_x3.#{$ext}";
+  background-image: url("#{$at2x_path}");
+  background-size: $w $h;
+  background-position: $pos;
+  background-repeat: $repeat;
+  @media all and (-webkit-min-device-pixel-ratio : 2),
+  all and (min--moz-device-pixel-ratio: 2),
+  all and (-o-min-device-pixel-ratio: 2/1),
+  all and (min-device-pixel-ratio: 2){
+    background-image:url("#{$at2x_path}");
+  };
+}
+
+@mixin background-all($path, $ext: "png", $w: auto, $h: auto, $pos: left top, $repeat: no-repeat){
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}_x2.#{$ext}";
+  $at3x_path: "#{$path}_x3.#{$ext}";
+  background-image: url("#{$at2x_path}");
+  background-size: $w $h;
+  background-position: $pos;
+  background-repeat: $repeat;
+  @media all and (-webkit-min-device-pixel-ratio : 2),
+  all and (min--moz-device-pixel-ratio: 2),
+  all and (-o-min-device-pixel-ratio: 2/1),
+  all and (min-device-pixel-ratio: 2){
+    background-image:url("#{$at2x_path}");
+  };
+  @media all and (-webkit-min-device-pixel-ratio : 3),
+  all and (-o-min-device-pixel-ratio: 3/1),
+  all and (min--moz-device-pixel-ratio: 3),
+  all and (min-device-pixel-ratio: 3) {
+    background-image:url("#{$at3x_path}");
+  };
+}
+
+@mixin hbn-text-ellipse($backgroundColor:$hbn-white-FF-color,$contentWidth:none,$before-right:3px) {
+  position: relative;
+  &:before {
+    content: '...';
+    position: absolute;
+    width: $contentWidth;
+    right: $before-right;
+    bottom: 0;
+    background: $backgroundColor;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 16px;
+    height:40px;
+    background: $backgroundColor;
+  }
+}

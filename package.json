@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "raf": "^3.4.1",
     "react": "^16.9.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-axios": "^2.0.3",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,12 +27,26 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 9"
     ],
     "development": [
+      "ie 9",
+      "ie 10",
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "http-proxy-middleware": "^0.19.1",
+    "node-sass": "^4.12.0",
+    "raf": "^3.4.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-global-configuration": "^1.3.0",
+    "react-router": "^5.0.1"
   }
 }

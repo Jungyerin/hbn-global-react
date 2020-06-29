@@ -1,0 +1,155 @@
+@import "../sass/web/commons/common-variable";
+
+.mainList {
+  float: left;
+  width: 563px;
+  //margin-right: 14px;
+  &.recruitment {
+    margin-right: 14px;
+  }
+}
+
+.mainList .bannerWrapper {
+  position: relative;
+  float: left;
+  width: 521px;
+  height: 86px;
+  margin-top: -1px;
+  //margin-right: 14px;
+  padding: 11px 20px;
+  border: solid 1px $hbn-alto-DC-color;
+  //&:nth-child(2n) {
+  //  margin-right: 0;
+  //}
+  &.oneRow {
+    height: auto;
+  }
+  &.emphasis {
+    margin-top: 0;
+    border-width: 3px 1px 1px 1px;
+    &.recruitment {
+      border-color: $hbn-recruitment-border-color $hbn-alto-DC-color $hbn-alto-DC-color $hbn-alto-DC-color;
+    }
+    &.gradstudent {
+      border-color: $hbn-gradstudent-border-color $hbn-alto-DC-color $hbn-alto-DC-color $hbn-alto-DC-color;
+    }
+  }
+  &.emphasis-background {
+    background-color: $hbn-blckwhite-FF-color;
+  }
+  &.text-banner {
+    height: 65px;
+  }
+  &.empty {
+    @include hbn-background-img ("#{$web-for-image}/images/empty-logo.png", 170px auto, center center);
+  }
+}
+
+.mainList .bannerWrapper .preview-emphasis-banner{
+  position: absolute;
+  border: 5px solid $hbn-redribbon-F2-color;
+  z-index: 990;
+  width: 574px;
+  height: 100px;
+  left: -12px;
+  top: -12px;
+}
+
+.mainList .bannerWrapper a{
+  float: left;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.mainList .bannerWrapper .logo-wrap{
+  float: left;
+  width: 100%;
+}
+
+.mainList .bannerWrapper .logo-wrap .logo{
+  float: left;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 5px;
+  img {
+    width: 25px;
+    height: auto;
+  }
+}
+
+.mainList .bannerWrapper .logo-wrap .org-name{
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: bold;
+  &.recruitment {
+    color: $hbn-scienceBlue-00-color;
+  }
+  &.gradstudent {
+    color: $hbn-fungreen-00-color;
+  }
+}
+
+.mainList .bannerWrapper .title-wrap{
+  float: left;
+  width: 100%;
+  height: 37px;
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: $hbn-codgray-1B-color;
+  padding: 3px 0 7px;
+  &.one-row {
+    height: 21px;
+    padding: 2px 0 4px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+
+.mainList .bannerWrapper .title-wrap .title-text{
+  height: 37px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: keep-all;
+  //word-break: break-all;
+  //display: -webkit-box;
+  //-webkit-line-clamp: 2;
+  //-webkit-box-orient: vertical;
+  //IE에서 말줄임표 처리
+  //@media screen and (min-width:0\0){
+  //  @include hbn-text-ellipse($hbn-white-FF-color,12px);
+  //}
+  //@-moz-document url-prefix() {
+  //  @include hbn-text-ellipse($hbn-white-FF-color,12px);
+  //}
+}
+
+.mainList .bannerWrapper .title-wrap.one-row .title-text{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.mainList .bannerWrapper.emphasis-background .title-wrap .title-text{
+  //IE에서 말줄임표 처리
+  //@media screen and (min-width:0\0){
+  //  @include hbn-text-ellipse($hbn-blckwhite-FF-color,12px);
+  //}
+  //@-moz-document url-prefix() {
+  //  @include hbn-text-ellipse($hbn-blckwhite-FF-color,12px);
+  //}
+}
+
+.mainList .bannerWrapper .date-wrap{
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  color: $hbn-emperor-52-color;
+}
+
+
+
+
